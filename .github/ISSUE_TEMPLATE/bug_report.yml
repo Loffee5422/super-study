@@ -1,0 +1,57 @@
+name: Bug report
+description: Report reproducible Skill, CLI, or Vault behavior that is not working correctly.
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Super Study. Remove private Vault content, credentials, employer information, and proprietary source code before submitting.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Skill behavior or routing
+        - Technical interview track
+        - Resume/project deep-dive track
+        - Behavioral interview track
+        - Obsidian Vault or CLI
+        - Documentation
+        - GitHub Actions
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v1.0.0 or commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect Codex or the CLI to do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and reproduction
+      description: Include the smallest safe prompt or command sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Codex surface, operating system, Python version, and whether Obsidian is enabled.
+      render: text
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials, personal learning records, private source code, and proprietary interview material.
+          required: true

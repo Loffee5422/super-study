@@ -1,0 +1,47 @@
+name: Feature request
+description: Propose a focused improvement to a learning track, protocol, CLI, or integration.
+title: "[Feature]: "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Learning problem
+      description: What learner or maintainer problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the user-visible workflow and why it belongs in the shared Skill.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Shared mastery protocol
+        - Technical interview track
+        - Resume/project deep-dive track
+        - Behavioral interview track
+        - Source retrieval
+        - Obsidian Vault or CLI
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Examples or evidence
+      description: Add safe examples, authoritative sources, or a reproducible scenario.
+  - type: checkboxes
+    id: fit
+    attributes:
+      label: Design fit
+      options:
+        - label: This prioritizes common interview or project needs over obscure trivia.
+          required: true
+        - label: This can be loaded conditionally if it is specialized.
+          required: true

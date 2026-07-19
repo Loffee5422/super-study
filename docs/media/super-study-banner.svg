@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Super Study</title>
+  <desc id="desc">Adaptive mastery for software engineering interviews, powered by Codex and optionally backed by Obsidian.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="72" r="130" fill="#38bdf8" opacity="0.09" filter="url(#glow)"/>
+  <circle cx="110" cy="330" r="170" fill="#a78bfa" opacity="0.08" filter="url(#glow)"/>
+  <g transform="translate(95 76)">
+    <rect x="0" y="0" width="94" height="94" rx="24" fill="none" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M24 60 L43 41 L57 55 L75 30" fill="none" stroke="#e0f2fe" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="24" cy="60" r="5" fill="#38bdf8"/>
+    <circle cx="43" cy="41" r="5" fill="#60a5fa"/>
+    <circle cx="57" cy="55" r="5" fill="#818cf8"/>
+    <circle cx="75" cy="30" r="5" fill="#c4b5fd"/>
+  </g>
+  <text x="225" y="130" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="2">SUPER STUDY</text>
+  <rect x="228" y="151" width="545" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="228" y="210" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">Adaptive mastery for software engineering interviews</text>
+  <g transform="translate(228 250)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">
+    <rect width="142" height="38" rx="19" fill="#0ea5e9" opacity="0.18" stroke="#38bdf8"/>
+    <text x="24" y="25" fill="#bae6fd">Codex Skill</text>
+    <rect x="158" width="196" height="38" rx="19" fill="#6366f1" opacity="0.18" stroke="#818cf8"/>
+    <text x="181" y="25" fill="#c7d2fe">Evidence-based</text>
+    <rect x="370" width="196" height="38" rx="19" fill="#8b5cf6" opacity="0.18" stroke="#a78bfa"/>
+    <text x="393" y="25" fill="#ddd6fe">Obsidian-ready</text>
+  </g>
+  <g transform="translate(980 228)" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.5">
+    <circle cx="0" cy="0" r="12"/>
+    <circle cx="70" cy="-36" r="12"/>
+    <circle cx="112" cy="30" r="12"/>
+    <circle cx="38" cy="72" r="12"/>
+    <path d="M11 -5 L58 -31 M78 -25 L104 19 M101 37 L49 66 M31 61 L7 11 M12 2 L100 27"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and learning ideas
+    url: https://github.com/Loffee5422/super-study/discussions
+    about: Ask usage questions or propose a learning workflow in Discussions.
+  - name: Security report
+    url: https://github.com/Loffee5422/super-study/security/advisories/new
+    about: Privately report a vulnerability instead of opening a public issue.

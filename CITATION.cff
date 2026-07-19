@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If Super Study supports your work, please cite this repository."
+title: "Super Study"
+type: software
+authors:
+  - family-names: "Loffee5422"
+version: 1.0.0
+date-released: 2026-07-20
+url: "https://github.com/Loffee5422/super-study"
+repository-code: "https://github.com/Loffee5422/super-study"
+license: MIT
