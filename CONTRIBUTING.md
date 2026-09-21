@@ -25,7 +25,9 @@ Avoid adding large encyclopedic knowledge dumps, vendor marketing, obscure trivi
 ## Skill design rules
 
 - Keep execution and judgment in Codex; Markdown is durable state.
-- Ask one knowledge question at a time and do not reveal the answer before the learner attempts it.
+- Begin concepts with one approachable broad probe; ask at most one learning question per turn. Teach missing foundations directly, and reserve hints for foundation-ready learners who are close to an answer.
+- End tutorials with key takeaways, next learning, and a quiz overview; treat teaching and assisted answers as learning evidence, not verified mastery.
+- Keep the scoped progress bar derived from the existing evidence matrix; do not add persisted numeric progress fields.
 - Require new-scenario transfer after explanations.
 - Preserve canonical Concept IDs and aliases.
 - Prefer official documentation, standards, specifications, papers, and repository source.

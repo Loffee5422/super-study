@@ -1,4 +1,4 @@
 interface:
   display_name: "Super Study"
-  short_description: "Master interview topics through adaptive questioning"
+  short_description: "Learn and verify interview topics through adaptive teaching"
   default_prompt: "Use $super-study to help me master a technical topic for interviews."

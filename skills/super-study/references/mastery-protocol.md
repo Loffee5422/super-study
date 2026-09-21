@@ -10,14 +10,17 @@ Classify each node as required, supporting, or extension. Required nodes block c
 
 ## Phases
 
-1. **Diagnose**: ask for recall, prediction, tracing, or a concrete decision.
-2. **Coach**: close precise gaps using the least help necessary.
-3. **Re-test**: use a different example after any help.
-4. **Close-book**: remove hints and test the mechanism again.
-5. **Interview**: apply continuous follow-ups, counterfactuals, and tradeoffs.
-6. **Teach-back**: require the learner to explain the idea coherently and correct likely misconceptions.
+1. **Broad probe**: ask one approachable question about the parent concept's problem or purpose in simple words. Recent reliable evidence can avoid repetition. Explicit unfamiliarity or a missing foundation routes directly to teaching.
+2. **Teach**: give a connected, low-cognitive-load tutorial: problem/purpose, plain-language abstraction, causal mechanism, one consistent worked example, and only contract-required boundaries, misconceptions, or tradeoffs. Define only needed jargon and cover only blocking prerequisites.
+3. **Supported check**: finish teaching with bullets for key takeaways, next learning, and quiz overview, then use one low-stakes supported check. Teaching or an assisted answer is learning evidence, not verified evidence.
+4. **Diagnose**: for foundation-ready or familiar learners, ask for recall, prediction, tracing, or a concrete decision.
+5. **Coach**: close a precise gap with the least help necessary; use the hint ladder only when foundations exist and the learner is close. Repeated unproductive attempts switch to teaching.
+6. **Re-test**: use a different example after help or a supported check.
+7. **Close-book**: remove hints and test the mechanism again.
+8. **Interview**: apply continuous follow-ups, counterfactuals, and tradeoffs. Explicit mock interviews remain unhinted; record gaps for debrief.
+9. **Teach-back**: require a coherent explanation and correction of likely misconceptions.
 
-Ask exactly one learning question per turn. A question may contain one scenario with tightly related subparts only when separating them would destroy the scenario.
+Ask at most one learning question per turn. Tutorials may ask zero questions and must not interrupt an explanation with guessing questions.
 
 ## Hint ladder
 
@@ -30,6 +33,12 @@ Track the highest help level used:
 - `4`: give a short explanation.
 
 An answer that required level 2–4 help is not mastery evidence. Re-test it in a new setting at level 0.
+
+## Foundation and progress
+
+Missing foundations, an explicit “I don't know,” or frustration bypass the hint ladder. A broad topic begins with the single broad probe above, then teaches when needed instead of creating a demotivating chain of failed questions.
+
+Show a compact text bar at useful milestones, feedback, and pauses for the current concept's applicable required dimensions, using the existing evidence states. Example: `[██░░░] 2/5 项已验证｜阶段：练习｜下一步：解释机制`. Count only current material dimensions and exclude irrelevant extensions. Moving a dimension from `verified` to `needs-review` reduces the verified count while keeping the denominator unchanged. Explain denominator changes only when the agreed required-dimension scope changes; do not automatically add current-concept dimensions for prerequisite learning. “尚未评估” is not failure, and teaching is a distinct stage from mastery. A full bar requires current level-0 evidence for every required dimension, including transfer and sustained follow-ups. Reconstruct it from the evidence matrix; do not add a persisted numeric field.
 
 ## Evidence dimensions
 

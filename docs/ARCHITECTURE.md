@@ -35,9 +35,11 @@ This routing prevents the complete protocol library and Vault from being importe
 
 ## Adaptive mastery loop
 
-Codex maintains an internal branch queue and a gap ledger. The highest-dependency unresolved branch is tested first. A correct answer increases depth rather than ending the branch: mechanism, counterexample, failure, tradeoff, implementation, security, or transfer is probed next.
+Codex maintains an internal branch queue and a gap ledger. Each concept starts with one broad problem-or-purpose probe. Missing foundations, an explicit unfamiliar response, or frustration routes to a connected low-cognitive-load tutorial; familiarity routes to an adaptive quiz but is not mastery evidence. The highest-dependency unresolved branch is then tested first. A correct answer increases depth rather than ending the branch: mechanism, counterexample, failure, tradeoff, implementation, security, or transfer is probed next.
 
-Help escalates through directional hints, key clues, and short explanations. Any explanation is followed by a new test in a different scenario. Mastery requires unhinted evidence across every material dimension of the learning contract.
+Hints are reserved for learners with foundations who are close to an answer; repeated unproductive attempts switch to teaching. Tutorials end with key takeaways, next learning, a quiz overview, and one supported check, followed later by a different unhinted transfer. At most one learning question appears per turn. Mastery requires unhinted evidence across every material dimension of the learning contract.
+
+At milestones, feedback, and pauses, Codex derives a compact scoped progress bar from the existing evidence matrix. It counts current verified material dimensions, keeps the denominator stable within the scope, explains changes caused by prerequisites, scope, or revalidation, and shows teaching as a separate stage. The bar is a navigation aid, not a percentage of understanding or time remaining; full completion still requires current level-0 evidence for all required dimensions, transfer, and sustained follow-ups.
 
 ## Durable data model
 

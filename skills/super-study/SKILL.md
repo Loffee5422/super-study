@@ -32,7 +32,9 @@ Determine the topic, desired outcome, target job description, relevant project o
 
 For broad topics, define mastery around common concepts, likely real-project difficulties, common failures, and transferable engineering tradeoffs. Exclude obscure trivia and excessively narrow details unless the job description or project makes them material. Do not time-box by default; mastery takes priority and may span Codex tasks.
 
-Ask one question at a time. For workflow or preference decisions, give a recommended answer. For knowledge checks, do not reveal the answer before the learner attempts it.
+Begin each new concept with one approachable broad probe: ask what problem the parent concept solves or how the learner would describe it in simple words. Use recent reliable evidence to avoid repetition. Familiarity routes into an adaptive quiz but is not mastery evidence. If the learner says they are unfamiliar, asks to start from scratch, or shows missing foundations or frustration, teach immediately instead of forcing a failed attempt.
+
+Ask at most one learning question per turn. A tutorial may ask zero questions and must not interrupt its explanation with guesses. For workflow or preference decisions, give a recommended answer. Explicit mock interviews stay unhinted; record gaps for the debrief.
 
 ## Acquire evidence-grounded context
 
@@ -64,13 +66,15 @@ Write checkpoints at session start, after a concept branch is verified or a mate
 
 Maintain an internal branch queue and a gap ledger. Work on the highest-dependency unresolved branch.
 
-1. Diagnose with recall or a concrete scenario.
-2. If the learner is correct, probe mechanism, boundary, counterexample, tradeoff, failure, or transfer.
-3. If incomplete, identify the precise gap without giving the answer.
-4. Escalate help gradually: directional hint, key clue, short explanation.
-5. After any explanation, test again with a different scenario.
-6. Detour only into prerequisites that block the current branch; return immediately after the prerequisite reaches the needed level.
+1. Start with the broad concept probe above, then classify the learner as unfamiliar, foundation-ready, or familiar-but-unverified.
+2. For an unfamiliar learner or a foundation gap, bypass the hint ladder and teach a coherent, concise tutorial: problem/purpose, plain-language mental model, causal mechanism, one consistent worked example, and only the boundary, misconception, or tradeoff required by the contract. Define only needed jargon and cover only blocking prerequisites.
+3. End every tutorial with compact bullets for key takeaways, next learning, and quiz overview (areas and abilities, not answers), then offer one low-stakes supported check. Fade support and use a different unhinted transfer later. Teaching or an assisted answer never earns verified status.
+4. For a foundation-ready learner, diagnose with recall or a concrete scenario. If incomplete and close, identify the precise gap and escalate help gradually: directional hint, key clue, short explanation. Repeated unproductive attempts switch to teaching promptly.
+5. If the learner is correct, probe mechanism, boundary, counterexample, tradeoff, failure, or transfer.
+6. After any explanation or supported check, use a different scenario when the contract calls for evidence. Detour only into prerequisites that block the current branch; return immediately after the prerequisite reaches the needed level.
 7. Move from coached learning to closed-book questioning and finally to an unhinted interview simulation.
+
+At useful milestones, after feedback, and when pausing, show a compact text progress bar for the current concept and its applicable required evidence dimensions, for example: `[██░░░] 2/5 项已验证｜阶段：练习｜下一步：解释机制`. Derive it from the existing `unassessed`, `learning`, `verified`, and `needs-review` evidence matrix; count only current material dimensions and name the scope. Moving a dimension from `verified` to `needs-review` reduces the verified count while keeping the denominator unchanged. Explain denominator changes only when the agreed required-dimension scope changes; do not automatically add current-concept dimensions for prerequisite learning. “尚未评估” is an initial state, not failure. Show teaching as its own stage, and reserve full completion for current level-0 evidence across every required dimension, including transfer and sustained follow-ups. Do not persist a new numeric schema; reconstruct the bar from current evidence and record a teaching or quiz entry point in existing checkpoint prose when useful.
 
 Keep explanations proportionate. Prefer a small example, trace, experiment, diagram, or minimal runnable reproduction when it exposes the mechanism better than more prose.
 

@@ -23,14 +23,14 @@
   <a href="CONTRIBUTING.md">Contributing</a>
 </p>
 
-Super Study turns Codex into a progressive learning coach for frontend, backend, data, AI, agents, networking, and cybersecurity interviews. It diagnoses gaps one question at a time, retrieves evidence from connected MCP sources or user-provided material, and keeps probing until the learner can explain, apply, debug, compare, and transfer the concept without material hints.
+Super Study turns Codex into a progressive learning coach for frontend, backend, data, AI, agents, networking, and cybersecurity interviews. It begins each concept with one approachable broad probe, teaches coherent foundations when needed, then verifies understanding one question at a time with evidence from connected MCP sources or user-provided material. A compact scoped progress bar shows verified dimensions without pretending to measure “brain understanding.”
 
 The optional Obsidian integration stores durable learning state without moving execution into Markdown. Codex remains the reasoning and teaching layer; the Vault is a compact, navigable memory system.
 
 ## Why Super Study
 
 - **Mastery over coverage:** completion requires observable evidence, not “I understand.”
-- **Progressive disclosure:** one branch and one question at a time; hints escalate only when needed.
+- **Progressive learning:** one broad probe first; coherent teaching for missing foundations; at most one learning question per turn.
 - **Interview-oriented depth:** mechanism, implementation, debugging, tradeoffs, failures, security, and novel transfer.
 - **Evidence-grounded learning:** connected MCP sources first, then official documentation, standards, papers, repositories, files, or URLs.
 - **Job-description targeting:** prioritize the concepts and project difficulties that matter to a specific role.
@@ -45,16 +45,16 @@ The optional Obsidian integration stores durable learning state without moving e
 flowchart LR
     A["Topic, job description, repo, folder, or URL"] --> B["Codex + Super Study"]
     B --> C["Evidence retrieval"]
-    C --> D["Diagnose one knowledge branch"]
-    D --> E["Explain or hint progressively"]
-    E --> F["Retest with a new scenario"]
+    C --> D["Broad probe and classify foundations"]
+    D --> E["Teach or coach progressively"]
+    E --> F["Supported check, then new scenario"]
     F -->|"gap remains"| D
     F -->|"evidence passes"| G["Mastery matrix"]
     G --> H["Optional Obsidian checkpoint"]
     H --> I["Resume from the exact unresolved branch"]
 ```
 
-Super Study verifies recall, causal mechanism, practical use, boundaries, failure modes, tradeoffs, security implications, transfer, and interview follow-ups. A topic is complete only when every material dimension has evidence.
+Super Study verifies recall, causal mechanism, practical use, boundaries, failure modes, tradeoffs, security implications, transfer, and interview follow-ups. It reports current-concept progress from the existing evidence matrix; a topic is complete only when every material dimension has current level-0 evidence.
 
 ## Install
 

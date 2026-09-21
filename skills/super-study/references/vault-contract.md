@@ -40,7 +40,7 @@ Use `--vault PATH` or `--config PATH` to override configuration. Do not expose c
 
 Obtain first-use consent before writing a Vault. Checkpoint at session start, after a verified concept branch or material misconception, and at pause or completion. Do not write every chat message.
 
-Store compact structured evidence: question summary, answer summary, misconception, highest hint level, correction, level-0 transfer evidence, unresolved branch, and next test. Do not store full transcripts.
+Store compact structured evidence: entry point (`teaching` or `quiz`) when useful, question summary, answer summary, misconception, highest hint level, correction, level-0 transfer evidence, unresolved branch, and next test. Reconstruct the progress bar from the current evidence matrix rather than persisting a new numeric field. Do not store full transcripts.
 
 Before creating a Concept, resolve candidates. After material changes, run `reindex` and `validate`. Never overwrite an existing note or user content during initialization. Do not edit `.obsidian` settings.
 
